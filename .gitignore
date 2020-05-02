@@ -1,0 +1,15 @@
+#  Local .terraform directories
+**/.terraform*
+# **/packer/
+**/certs/*
+**/temp/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# Ignore Backend Files
+backend.tf
